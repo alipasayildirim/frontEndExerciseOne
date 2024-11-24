@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+   <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>parentez</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary my-md-5 rounded-pill mx-md-5 mx-1 py-md-4">
+    <div class="container ">
+      <a class="navbar-brand" href="#"><img src="image/logo-png-parantez.png" alt="" class="img-fluid" style="height: 36px; width: 146px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item me-md-5">
+            <a class="nav-link " href="#">Burs</a>
+          </li>
+          <li class="nav-item me-md-5">
+            <a class="nav-link" href="#">Kampanyalar</a>
+          </li>
+          <li class="nav-item me-md-5">
+            <a class="nav-link " href="#">Nedir</a>
+          </li>
+          <li class="nav-item me-md-5">
+            <a class="nav-link" href="#" >İletişim</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#" >S.S.S</a>
+          </li>
+        </ul>
+        <div class="d-flex" role="search">
+          <button class="btn btn-light me-md-3 rounded-pill border border-2 px-md-5 px-4">Giriş Yap</button>
+          <button class="btn btn-danger text-light rounded-pill px-md-5 px-4">Üye Ol</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="banner" class="mt-md-3 ">
+    <div class="container bg-light shadow rounded-1 ">
+      <div class="row py-3">
+        <div class="col-md-6 d-flex flex-column justify-content-center align-items-start ps-md-5 p-2">
+          <h1>Öğrencilerin Avantajlı Platformu </h1>
+          <p class="mt-3 mb-5">Konumuna en yakın işletmelerde avantajlı ödeme yapabilir. her miktarda eğitim desteği alabilirsin</p>
+          <a href="#" class="btn btn-success text-light rounded-pill">Kampanyalardan Faydalan</a>
+        </div>
+        <div class="col-md-6 pe-0">
+          <img class="img-fluid " src="image/anasayfa.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="campaigns"  class="container mt-10 bg-light rounded-1 shadow">
+    <div class="container" id="slider" >
+      <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="image/bg-2.png" loading="lazy" />
+            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="image/bg-2.png" loading="lazy" />
+            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="image/bg-2.png" loading="lazy" />
+            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+          </div>
+
+          
+        </div>
+        
+        
+          <div class="swiper-button-next  "><i class="bi bi-arrow-right shadow rounded-circle  px-lg-3 px-md-2 px-1 "></i></div>
+          <div class="swiper-button-prev "><i class="bi bi-arrow-left shadow rounded-circle px-lg-3 px-md-2 px-1"></i></div>
+       
+    
+          
+        </div>
+        
+      </div>
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          var swiper = new Swiper("#slider .mySwiper", {
+            lazy: true,
+            loop:true,
+            pagination: {
+              el: "#slider .swiper-pagination",
+              clickable: true,
+              
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            
+          });
+        });
+      </script>
+    <div class=" d-flex justify-content-center  ">
+      <a href="" class="btn btn-danger rounded-pill text-light px-4 mb-3 ">Faydalan</a>
+    </div>
+  </section>
+
+  <section id="why" class="mt-10">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 shadow bg-light flex-column justify-content-center d-flex ps-lg-4 pe-lg-5">
+            <h2><span class="red-circle"></span> Parantez Neyi Amaçlar?</h2>
+            <p class="mt-2">Parantez yenilikçi çözümlerle bağışçı ile öğrenci arasında doğrudan ve aracısız şekilde güçlü bir köprü olarak öğrenciye desteği her an ulaşılabilir kılar. Anlaştığı yere işletmeler ve markalar ile öğrencilerin temel ihtiyacı ,öğrenim ihtiyacı ve sosyal aktiviteler için avantajlar sunar. </p>
+          
+        </div>
+        <div class="col-md-6">
+          <img src="image/Untitled-1ama.png" alt="" class="img-fluid-custom ">
+        </div>
+      </div>
+
+      <div class="row mt-10">
+
+        <div class="col-md-6 order-1 order-md-0">
+          <img src="image/burs görsel.png" alt="" class="img-fluid-custom ">
+        </div>
+        
+        <div class="col-md-6 shadow bg-light flex-column justify-content-center d-flex ps-lg-4 pe-lg-5">
+            <h2><span class="red-circle"></span> Burs Sistemi</h2>       
+            <p class="mt-2">Parantez eğitim desteğine ihtiyaç duyan öğrencileri ve bunu sağlayabilecek kişileri bir araya getirir. Parantez Öğrenci Platformu trafından öğrenciliği onaylanmış profiller burs havuzuna dahil olur. Bağışcı istediği öğrenciye istediği zaman,istediği miktarda destek sağlayabilir.  </p>
+          
+        </div>
+        
+      </div>
+
+      <div class="row mt-10">
+        <div class="col-md-6 shadow bg-light flex-column justify-content-center d-flex ps-lg-4 pe-lg-5">
+          <h2><span class="red-circle"></span> Kampanya Sistemi</h2>
+            <p class="mt-2">Parantez anlaştığı yerel işletmeler ve markalar ile öğrencilerin temel ihtiyacı,eğitim ihtiyacı ve sosyal aktiviteler için avantaj sunar. Öğrenci konumuna en yakın ve gitmeyi en sevdeği işletmelerin ürün ve hizmetlerinden indirimli kampanyalı şekilde faydalanabilir. Parantez Öğrenci Platformu üzerinden alacağı kod ile marka ve yerel işletmelerde fırsatları değerlendirebilir. </p>
+          
+        </div>
+        <div class="col-md-6">
+          <img src="image/kampanya.png" alt="" class="img-fluid-custom ">
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <div class="footer-border-top border-2 mt-10 bg-light">
+    <div class="container my-5 ">
+
+    <footer class="text-center text-lg-start text-dark text-decoration-none">
+     
+      <div class="container p-4">
+      
+        <div class="row my-4">
+        
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+  
+            <div class="d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 50px; height: 50px;">
+              <img src="image/logo-png-parantez.png" height="50" alt=""
+                   loading="lazy" />
+            </div>
+  
+            <h5 class="text-center mt-37 ">Sosyal Medya</h5>
+  
+            <ul class="list-unstyled d-flex flex-row justify-content-center">
+              <li>
+                <a class="text-dark text-decoration-none px-2" href="#!">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-dark text-decoration-none px-2" href="#!">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-dark text-decoration-none ps-2" href="#!">
+                  <i class="bi bi-twitter-x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-dark text-decoration-none ps-2" href="#!">
+                  <i class="bi bi-youtube"></i>
+                </a>
+              </li>
+            </ul>
+  
+          </div>
+       
+  
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="mb-4">İletişim</h5>
+  
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#!" class="text-dark text-decoration-none">Örnek Mah.Deneme Sok. No.21/6 <br> Ankara Tel: 03124440532</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-dark text-decoration-none">destek@parantez.com</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-dark text-decoration-none">MERSİS : 51951256106</a>
+              </li>                    
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="mb-3">Site</h5>
+  
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="#!" class="text-dark text-decoration-none">Burs</a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" class="text-dark text-decoration-none">Kampanyalar</a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" class="text-dark text-decoration-none">Nedir</a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" class="text-dark text-decoration-none">S.S.S</a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" class="text-dark text-decoration-none">Reklam</a>
+              </li>
+            
+            </ul>
+          </div>
+         
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="mb-4">Sözleşmeler</h5>
+  
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="#" class="text-dark text-decoration-none">Kullanıcı Sözleşmesi</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="text-dark text-decoration-none">Gizlilik(KVKK) Politikamız</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="text-dark text-decoration-none">KVKK Başvuru Formu</a>
+              </li>
+            </ul>
+          </div>
+         
+        </div>
+        
+      </div>
+      
+  
+   
+    </footer>
+   
+  </div>
+  </div>
+     
+  <div class="text-center p-3">    
+    <p class="text-dark text-decoration-none copright" 
+    >Tüm Hakları <strong>parantez</strong> ' de saklıdır. </p>
+  </div>
+  
+  
+  
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>

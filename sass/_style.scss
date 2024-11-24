@@ -1,0 +1,295 @@
+body{
+  font-family: 'Outfit', sans-serif !important;
+  overflow-x: hidden;
+  background-color: rgba(0, 0, 0, 0.088);
+
+  .img-fluid-custom {
+    max-width: 110%;
+    height: auto;
+}
+}
+
+
+.mt-10{
+  margin-top: 10% !important;
+}
+
+.mt-37{
+  margin-top: 37px;
+}
+
+nav {
+.navbar-brand{
+  font-size: 2rem;
+  color: #000;
+  font-weight: 800;
+}
+
+.nav-link{
+  color: #000;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.btn{
+  font-weight: 500;
+font-size:  1.25rem;
+}
+}
+
+#banner {
+
+  h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #000;
+  }
+
+  p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #000;
+
+  }
+}
+
+#slider {
+  position: relative;
+  width: 100%;  
+  height: 500px; 
+  margin: 0 auto;
+  padding: 0;
+}
+
+#slider .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+#slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+ 
+}
+
+
+.swiper-slide img {
+  width: auto;
+  height: auto;
+  width: 80%;
+  height: 85%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 70px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #000 !important;
+  font-size: 46px; /* İkon boyutu */
+}
+
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  display: none;
+}
+
+
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset,35px) !important;
+    left: auto;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: var(--swiper-navigation-sides-offset,35px) !important;
+  right: auto;
+}
+
+#campaigns .btn-danger {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+#why {
+
+  h2 {
+    display: flex;
+    align-items: center;
+    font-size: 44px; 
+}
+
+.red-circle {
+    width: 20px; 
+    height: 20px; 
+    background-color: red; 
+    border-radius: 50%; 
+    margin-right: 5px; 
+}
+
+
+  p {
+    font-size: 1.25rem  ;
+  }
+
+}
+
+.footer-border-top {
+  border-top: 2px solid #000;
+  border-bottom: 1px solid #0000001a;
+ }
+
+ .copright {
+  font-size: 20px;
+ }
+
+footer{
+  font-family: Outfit;
+
+  i {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-weight: 600;
+  }
+
+  ul li a {
+    font-weight: 500;
+  }
+
+  
+  
+}
+
+
+@media (min-width: 350px) and (max-width: 575.98px) {
+ 
+  .navbar {
+    border-radius: 50px !important;
+   }
+
+   #banner {
+    margin-top: 10%;
+
+    h1{
+      font-size: 34.88px;
+    }
+
+
+
+   }
+
+   .swiper-slide img{
+    width: 75%;
+    height: 80%;
+   }
+
+   .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset, 10px) !important;
+}
+ 
+  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, 10px) !important;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    font-size: 24px;
+  }
+
+  #campaigns .btn-danger {
+    font-size: 1rem;
+}
+
+#slider {
+  height: 300px;
+}
+
+#why h2 {
+  font-size: 30px;
+}
+
+#why p {
+  font-size: 1rem;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+  #banner{
+    margin-top: 10%; 
+  }
+
+
+
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+
+  .navbar {
+    border-radius: 50px !important;
+   }
+
+   .swiper-button-next, .swiper-button-prev {
+    font-size: 36px;
+  }
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset, 20px) !important;
+}
+ 
+  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, 20px) !important;
+  }
+
+  #why h2 {
+    font-size: 28px;
+  }
+  
+  #why p {
+    font-size: 1rem;
+  }
+
+  
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ 
+ nav {
+  .navbar-brand {
+  font-size: 28px;
+ }
+
+ button.px-md-5 {
+    padding-right: 1rem !important;
+padding-left: 1rem !important;
+}
+
+.nav-link {
+  font-size: 18px;
+  
+}
+ .nav-item {
+  margin-right: 24px !important;
+ }
+
+}
+ 
+
+.btn-light{
+  margin-right: 5px !important;
+}
+  
+
+#why h2 {
+  font-size: 40px;
+}
+
+}
+
